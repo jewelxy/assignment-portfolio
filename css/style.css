@@ -1,0 +1,190 @@
+*{
+  margin: 0px;
+  padding: 0px;
+  outline: 0px;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+}
+h1{
+    font-size: 50px;
+}
+h2{
+    font-size: 40px;
+}
+/*--Top Menu Section--*/
+section{
+    height: 500px;
+    padding-bottom: 100px;
+}
+.topMenu{
+  height: 50px;
+  padding-top: 30px;
+}
+.topMenu ul{
+float: right;
+margin-right: 200px;
+list-style-type: none;
+}
+.topMenu ul li{
+float: left;
+margin-left: 40px;
+}
+.topMenu ul li a{
+  text-decoration: none;
+  color:#000;
+  font-weight: 700;
+}
+.halfWidth{
+  float: left;
+  width: 40%;
+  margin-left: 5%;
+  padding-left: 2%;
+}
+.halfWidth img{
+  width: 100%;
+}
+.nameTitle{
+  color: #F59560;
+}
+.topBanner u{
+  text-decoration: none;
+  border-bottom: 1px solid #99C1DA;
+}
+.topButton {
+	display: block;
+	margin-top: 20px;
+	width: 85px;
+	text-align: center;
+	text-decoration: none;
+	background-image: linear-gradient(45deg,#20CADC,#418BFE);
+	padding: 18px 20px;
+	border-radius: 7px;
+	color: white;
+	font-weight: 700;
+}
+/*-- About Section--*/
+.aboutSectionButton {
+	display: block;
+	margin-top: 20px;
+	width: 154px;
+	text-align: center;
+	text-decoration: none;
+	background-image: linear-gradient(45deg,#ffa07a,#ff6347);
+	padding: 18px 20px;
+	border-radius: 12px;
+	color: white;
+	font-weight: 700;
+}
+/*--Work Area Section--*/
+.workArea{
+    background-color:#F8F9FC;
+    background-size: 100%;
+    text-align: center;
+    padding-left: 6%;
+    height: 700px;
+}
+#latest{
+  color: #F46060;
+}
+.workArea h2 {
+	padding-top: 100px;
+  padding-bottom: 80px;
+}
+.workArea div {
+	width: 30%;
+	float: left;
+	margin-left: 2%;
+	box-shadow: 10px 10px 40px #808080;
+	border-radius: 24px;
+	background-color: #ffffff;
+	padding: 10px 10px 57px 1px;
+}
+.workArea img {
+	width: 89%;
+	padding: 5px;
+	background-color: #ffffff;
+}
+/*--Working Inquiry Section--*/
+.workInquiry{
+  padding-top: 100px;
+  height: 350px;
+}
+.workInkHead {
+  background-image: url("../images/Group_33094_1.png");
+  background-repeat: no-repeat;
+  background-size: 100%;
+	height: 300px;
+	width: 60%;
+	margin: 0 auto;
+}
+.workInk{
+  float: left;
+}
+.workInquiryHeeader{
+  width: 70%;
+}
+.workInkHead h2 {
+	padding: 12% 14%;
+}
+.workInquiryChat {
+	padding: 10% 3% 4% 10%;
+}
+.workInquiryChat a {
+	text-decoration: none;
+	background-image: linear-gradient(45deg,#ffa07a,#ff6347);
+	padding: 18px 20px;
+	border-radius: 7px;
+	color: white;
+	font-weight: 700;
+}
+/*--Get in Touch*/
+.contactForm{
+	height: 200px;
+}
+.contactForm h2{
+	text-align: center;
+	color: #F46060;
+}
+.contactForm form {
+	padding: 2% 0% 0% 33%;
+}
+.contactForm form input[type="text"] {
+	height: 41px;
+	margin-bottom: 10px;
+	width: 25%;
+}
+.contactForm form textarea{
+	height: 120px;
+	width: 30%;
+	resize: none;
+}
+.contactForm form input[type="button"] {
+	height: 40px;
+	width: 70px;
+	color: #fff;
+	font-size: 19px;
+	background-image: linear-gradient(45deg,#6c56d4ba,#1623e5);
+	border-radius: 7px;
+}
+/*--Footer--*/
+footer{
+  padding-bottom: 150px;
+}
+footer h3{
+  text-align: center;
+  color: #6B6A73;
+}
+footer h2{
+  text-align: center;
+  color: #363958;
+}
+.footerImg {
+	display: block;
+	margin: 0 auto;
+	padding: 2% 4% 5% 44%;
+}
+.footerImg img {
+	width: 58px;
+}
